@@ -1,26 +1,16 @@
-# README
+# README - Events App
+
+This app is designed based on specifications for the CareRev take-home assessment.
+
+## Post endpoint for events
+
+Can be accessed at ... herokuapp.com/events
 
 able to handle curl similar to: -X POST --header 'Content-Type: application/json' --data '{"event" : {"name" : "test button", "event_type" : "click", "at" : "2020-06-12T00:00:01", "button_color" : "red" }}' 'https://some-custom-name.herokuapp.com/events'
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Today Stats endpoint
 
-Things you may want to cover:
+Can be located at ... herokuapp.com/todaystats
 
--  Ruby version
-
--  System dependencies
-
--  Configuration
-
--  Database creation
-
--  Database initialization
-
--  How to run the test suite
-
--  Services (job queues, cache servers, search engines, etc.)
-
--  Deployment instructions
-
--  ...
+-  Ruby version: 2.7.4
+-  Rails version: 6.1.4
